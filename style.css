@@ -6,7 +6,7 @@
 }
 
 body {
-  background: url(/images/background.png) no-repeat;
+  background: url(/images/background.png) repeat;
   color: #ededed;
 }
 
@@ -16,19 +16,10 @@ body {
   left: 0;
   width: 100%;
   padding: 20px 10%;
-  background: transparent;
-  display: flex;
+  display: inline-block;
   justify-content: space-between;
   align-items: center;
   z-index: 100;
-}
-
-.logo {
-  position: relative;
-  font-size: 32px;
-  color: #fff;
-  text-decoration: none;
-  font-weight: 600;
 }
 
 .navbar a {
@@ -36,7 +27,6 @@ body {
   font-size: 25px;
   color: #fff;
   text-decoration: none;
-  font-weight: 500;
   margin: 35px;
   transition: .5s;
 }
@@ -46,60 +36,62 @@ body {
 }
 
 .home {
-  margin-top: 80px;
-  /* position: relative; */
-  width: 100%;
-  justify-content: space-between;
-  height: 100vh;
-  background: url(/images/background3.jpg) no-repeat;
+  margin-top: 100px;
+  margin-left: 35px;
+  padding: 70px 10% 5px;
   background-position: center;
-  display: block;
-  align-items: center;
-  padding: 70px 10% 0;
-}
-
-.home a {
-  margin-top: 50px;
-  font-size: 32px;
-  color: #fff;
+  display: inline-block;
 }
 
 .home-content {
-  max-width: 600px;
+  display: inline-block;
+  position: relative;
+  bottom: 150px;
+}
+
+.home-dp {
+  display: inline-block;
+  position: relative;
+  left: 70px;
 }
 
 .home-content h4 {
   font-size: 32px;
-  font-weight: 700;
 }
 
 .home-content h1 {
   font-size: 56px;
-  font-weight: 700;
 }
 
-/* .home-socials {
-  font-size: 25px;
+
+.socials {
+  padding-left: 12%;
+  padding-top: 10px;
+  font-size: 15px;
   color: #fff;
   text-decoration: none;
-  font-weight: 500;
-  margin: 35px;
   transition: .5s;
-} */
+  position: relative;
+  bottom: 150px;
+}
+
+.socials a {
+  font-size: 25px;
+  color: #0ef;
+  text-decoration: none;
+  transition: .5s;
+}
 
 .stats {
   align-items: center;
   margin-top: 100px;
   margin-left: 350px;
   position: relative;
-  /* width: 100%; */
-  /* background: url(/images/background.png) no-repeat; */
   background-position: center;
   display: flex;
   align-items: center;
   padding: 70px 10% 0;
   font-size: 20px;
-  font-weight: 400;
   transition: .5s;
 }
 
