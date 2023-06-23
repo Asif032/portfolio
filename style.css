@@ -40,7 +40,7 @@ body {
   margin-left: 35px;
   padding: 70px 10% 5px;
   background-position: center;
-  display: inline-block;
+  display: block;
 }
 
 .home-content {
@@ -84,13 +84,13 @@ body {
 
 .stats {
   align-items: center;
-  margin-top: 100px;
-  margin-left: 350px;
+  margin-top: 80px;
+  margin-left: 45px; 
+  padding: 70px 10% 0;
   position: relative;
   background-position: center;
   display: flex;
   align-items: center;
-  padding: 70px 10% 0;
   font-size: 20px;
   transition: .5s;
 }
@@ -99,10 +99,20 @@ body {
   color: #fff;
 }
 
+.stats a:hover {
+  color: #0ef;
+}
+
+.stats table {
+  border-width: 5px;
+  border-color: #0ef;
+  text-align: center;
+  width: 60%;
+}
+
 .projects {
   margin-top: 100px;
   position: relative;
-  /* width: 100%; */
   justify-content: space-between;
   background-position: center;
   display: block;
